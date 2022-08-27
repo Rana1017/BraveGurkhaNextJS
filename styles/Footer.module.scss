@@ -1,0 +1,42 @@
+.footer_Section{
+    background-color: var(--background-color);
+    height: auto;
+    width: 100%;
+    color: var(--white-color);
+
+    .footer_Container{
+        display: flex;
+        justify-content: space-between;
+        .about_Section{
+            .heading{
+                font-size: 1.6rem;
+                font-weight: bold;
+                letter-spacing: 0.1rem;
+    
+            }
+            .icon_Section{
+                display: flex;
+                gap: 2rem;
+            }
+
+        } 
+
+        .classes_Section{
+            .sub_Heading{
+                font-size: 1.2rem;
+                font-weight: normal;
+
+            }
+            .classes{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                
+                
+            }
+        }
+        
+    }
+   
+}
