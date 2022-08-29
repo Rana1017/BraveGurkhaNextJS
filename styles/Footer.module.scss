@@ -3,37 +3,79 @@
     height: auto;
     width: 100%;
     color: var(--white-color);
+    padding: 1rem 7rem;
 
     .footer_Container{
         display: flex;
         justify-content: space-between;
+        gap: 2.5rem;
         .about_Section{
+            height: auto;
+            width: 100%;
             .heading{
                 font-size: 1.6rem;
-                font-weight: bold;
+                font-weight: normal;
                 letter-spacing: 0.1rem;
+              
     
             }
+            .paragraph{
+                margin-top: 1rem;
+
+            }
             .icon_Section{
+                margin-top: 1rem;
                 display: flex;
-                gap: 2rem;
+                gap: 1.2rem;
+                .icon a{
+                    color: var(--white-color);
+                }
             }
 
         } 
 
         .classes_Section{
+            height: auto;
+            width: 100%;
+            margin-left: 10rem;
+            margin-top: 1rem;
+
             .sub_Heading{
                 font-size: 1.2rem;
-                font-weight: normal;
+                
 
             }
             .classes{
                 display: flex;
-                justify-content: flex-start;
-                align-items: flex-start;
+                flex-direction: column;
+                justify-content: center;
+             .link_Classes{
+                margin-top: 1rem;
+                a{
+                    color: var(--white-color);
+                }
+                a:hover{
+                    color: var(--green-color);
+                }
+             }
+                
+            }
+        }
 
-                
-                
+        .contact_Section{
+            height: auto;
+            width: 100%;
+            margin-left: 5rem;
+            margin-top: 1rem;
+            .sub_Heading{
+                font-size: 1.2rem;
+
+            }
+            .details{
+                margin-top: 1rem;
+                .address{
+                    color: var(--green-color);
+                }
             }
         }
         

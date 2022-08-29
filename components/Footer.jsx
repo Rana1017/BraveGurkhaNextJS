@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/Footer.module.scss';
+import { BsFacebook, BsTwitter, BsInstagram } from 'react-icons/bs';
 
 const footer = () => {
   return (
@@ -8,12 +9,19 @@ const footer = () => {
           <div className={styles.about_Section}>
               <div className={styles.heading}>BraveGurkha</div>
               <p className={styles.paragraph}>           
-              Brave Gurkha Pvt. Ltd. is a leading Pre-Gurkha Army Training Academy.          
+              Brave Gurkha Pvt. Ltd. is a leading Pre-Gurkha Army Training Academy. 
+              we have helped hundreds of candidates achieve success through Discipline, Development and Integrity.
+       
+              </p>
+              <p className={styles.paragraph}>           
+              Brave Gurkha Pvt. Ltd. is a leading Pre-Gurkha Army Training Academy. 
+              we have helped hundreds of candidates achieve success through Discipline, Development and Integrity.
+       
               </p>
               <div className={styles.icon_Section}>
-                 <div className={styles.icon}> Insta</div>
-                 <div className={styles.icon}> Fb</div>
-                 <div className={styles.icon}> Twitter</div>
+                 <div className={styles.icon}> <a href="/"><BsFacebook size='1.4rem'/></a> </div>
+                 <div className={styles.icon}> <a href="/"><BsInstagram size='1.4rem'/></a></div>
+                 <div className={styles.icon}> <a href="/"><BsTwitter size='1.4rem'/></a></div>
               </div>
 
           </div>
@@ -58,7 +66,7 @@ const footer = () => {
 
                <div className={styles.details}>
                    <p className={styles.address}>Phone no:</p>
-                   <p>9867899067, 9812534567</p>
+                   <p>9867899067, 9812534567, 9812567810, 041-177128</p>
                </div>
 
           </div>

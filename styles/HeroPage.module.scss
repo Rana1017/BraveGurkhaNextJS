@@ -1,0 +1,24 @@
+.hero_Section{
+    background-color: var(--lightgreen-color);
+    max-height: 60vh;
+    width: 100%;
+    padding: 1rem 7rem;
+    .hero_Container{
+        display: flex;
+        justify-content: space-between;
+        .leftsection{
+           
+            height: 60vh;
+            width: 100%;
+        }
+        .rightsection{
+            position: relative;
+            height: 60vh;
+            width: 100%;
+            .img{
+                position: absolute;
+            }
+        }
+        
+    }
+}

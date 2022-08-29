@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 html,
 body {
+  
+  font-family: "Roboto", sans-serif;
+}
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+ 
 }
 
 :root {  
@@ -23,11 +28,9 @@ a {
   cursor: pointer;
 }
 
-* {
-  box-sizing: border-box;
- 
-}
+
 li{
   list-style-type: none;
   cursor: pointer;
+  color: var(--white-color);
 }

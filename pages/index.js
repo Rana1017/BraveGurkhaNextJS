@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import HeroPage from '../components/HeroPage';
 
 
 
@@ -14,11 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head> 
       <Navbar/>
-
-    
-
-      <h1>This is hompage ok</h1>
-
+      <HeroPage/>
       <Footer/>
     </div>
   )
